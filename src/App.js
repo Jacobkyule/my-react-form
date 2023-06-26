@@ -1,4 +1,6 @@
-import logo from './logo.svg';
+import React from 'react';
+import MyInput from './MyInput';
+import logo from './Jakes-logo.svg';
 import './App.css';
 
 function App() {
@@ -7,17 +9,19 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Check out my Website for contacts
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://jacobkyule.github.io/Jacobs-Website/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Jacob K.
         </a>
+        <MyInput />
       </header>
+      
     </div>
   );
 }
